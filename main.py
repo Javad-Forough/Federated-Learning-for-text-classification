@@ -4,6 +4,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from sklearn.model_selection import train_test_split
 from server_setup import setup_server
+from model_definition import SentimentClassifier
 from client_setup import distribute_data
 from training import train_model
 from evaluation import evaluate_model
